@@ -1,3 +1,5 @@
+https://habr.com/ru/companies/first/articles/786804/
+
 ```py
 n = 4
 l = [1]
