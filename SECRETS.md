@@ -67,3 +67,14 @@
 - Начиная с версии Python 3.6, словари являются упорядоченными, то есть сохраняют порядок следования ключей в порядке их внесения в словарь.
 - Словарные методы `items()`, `keys()`, `values()` возвращают не совсем обычные списки. Типы этих списков - `dict_items`, `dict_keys`, `dict_values` соответственно, в отличие от обычных списков `list`. Методы обычных списков недоступны для списков типа `dict_items`, `dict_keys`, `dict_values`. Используйте явное преобразование с помощью функции `list()` для получения доступа к методам списков.
 - В Python 3.9 появились операторы `|` и `|=`, которые реализуют операцию конкатенации словарей (в дополнение к методу словаря `update()`)
+- Удобные константы:
+```py
+print(string.ascii_letters)
+print(string.ascii_uppercase)
+print(string.ascii_lowercase)
+print(string.digits)
+print(string.hexdigits)
+print(string.octdigits)
+print(string.punctuation)
+print(string.printable)
+```
