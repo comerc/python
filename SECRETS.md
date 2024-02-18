@@ -78,3 +78,4 @@ print(string.octdigits)
 print(string.punctuation)
 print(string.printable)
 ```
+- неверно создавать decimal числа из float, например: `print(Decimal(0.1)) # 0.100000000000000005`
